@@ -30,6 +30,7 @@ def demo_of_append_and_insert(lst):
     print(lst)
 
 def demo_of_remove_and_pop(lst):
+#remove basically deletes the first occurence of a particular element but pop removes the element in a particular index
     lst.remove("CS42")
     print(lst)
     lst.pop(1)
